@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+		<meta charset="utf-8">
+		<title>Simple markers</title>
+		<link rel="stylesheet" type="text/css" href="../static/css/index.css">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body>
+
+
+
+
+		<div style="margin:auto">
+		<form class="form-inline" >
+		  <input type="text" class="input-small" id = 'lat' placeholder="lantitue">
+		  <input type="text" class="input-small" id = 'lon' placeholder="longtitue">
+		  <input type="text" class="input-small" id = 'dis' placeholder="distance">
+		  <input type="button" class="btn" id='geobuttonid' value = 'search'>
+		</form>
+		<form class="form-search" style="margin:auto">
+		  <input type="text" class="input-medium search-query" id="serachbox" >
+		  <input type="button" class="btn" id="searchbuttonid" value = 'Search'>
+		</form>
+
+		<div class="btn-group" style="margin:auto">
+		  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+		    keywordlist
+		    <span class="caret"></span>
+		  </a>
+		  <ul class="dropdown-menu" style="align:right">
+		    <!-- dropdown menu links -->
+		    	<button onclick="searchKeyword2('study')">study</button>
+				<button onclick="searchKeyword2('eat')">eat</button>
+				<button onclick="searchKeyword2('trip')">trip</button>
+				<button onclick="searchKeyword2('sports')">sports</button>
+				<button onclick="searchKeyword2('tv')">tv</button>
+				<button onclick="searchKeyword2('gaming')">gaming</button>
+				<button onclick="searchKeyword2('party')">party</button>
+				<button onclick="searchKeyword2('work')">work</button>
+				<button onclick="searchKeyword2('hiking')">hiking</button>
+				<button onclick="searchKeyword2('sleep')">sleep</button>
+		  </ul>
+		</div>
+		</div>
+
+		
+		<div id="map" style="width:400px,height:400px"></div>
+		<script type="text/javascript" src="../static/js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="../static/js/index.js"></script>
+		<script type="text/javascript" src="../static/js/markerclusterer.js"></script>
+		<script async defer
+			    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAIjIoGNjLySkXo_ZxdsYpUItWUyZPZ8s&signed_in=true&callback=initMap">
+		</script>
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	</body>
+</html>
