@@ -6,10 +6,10 @@ import oauth2
 import json
 
 
-ckey = 'OY7BCQh9MBSZrWeoPOEuO2fqg'
-csecret = 'NqbNTMQ1eJVOJrY1GzDvRAJXZDJyRnWMFcWsj5EXUfwK69FWw8'
-atoken = '910713271946268672-cYUUCKZLs2LBdk5hGzV7ZY5tZPQ8vgA'
-asecret = '2tSAbZ4yi0AkzQXdi9OYt8mg1P8zbJ05SFHBIvH71S7jn'
+ckey = 
+csecret = 
+atoken = 
+asecret = 
 
 tweets = []
 # file name that you want to open is the second argument
