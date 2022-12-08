@@ -2,7 +2,7 @@ awsebcli==3.12.0
 blessed==1.14.2
 botocore==1.7.29
 cement==2.8.2
-certifi==2017.7.27.1
+certifi==2022.12.7
 click==6.7
 colorama==0.3.7
 docker-py==1.7.2
